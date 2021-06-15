@@ -1,0 +1,54 @@
+Created by testinium on 15.06.2021
+
+This is a concept file with following syntax for each concept.
+
+# Uygulamaya izin ver
+* "3" saniye bekle
+* "com.android.packageinstaller:id/permission_allow_button" id li elemente tıkla
+# Apk için gerekli cookie ve izinleri kabul et
+* "2" saniye bekle
+* "com.turkishairlines.mobile:id/frPrivacy_btnAccept" id li elemente tıkla
+* "2" saniye bekle
+* "com.turkishairlines.mobile:id/dgBase_btnPositive" id li elemente tıkla
+# Bilet al butonuna tıkla
+* "2" saniye bekle
+* "com.turkishairlines.mobile:id/acMain_btnBooking" id li elemente tıkla
+# Tek yön uçuş seç
+* "2" saniye bekle
+* "com.turkishairlines.mobile:id/frDashboard_tvOneWay" id li elemente tıkla
+# Yön bilgisi olarak SAW to ESB Seç
+* "2" saniye bekle
+* "com.turkishairlines.mobile:id/frDashboard_llFrom" id li elemente tıkla
+* "2" saniye bekle
+* "com.turkishairlines.mobile:id/frAirportSelection_etSearch" id li elemente "saw"  değerini yaz
+* "2" saniye bekle
+* "com.turkishairlines.mobile:id/itemAirport_tvBottom" id li elemente tıkla
+* "2" saniye bekle
+* "com.turkishairlines.mobile:id/frDashboard_tvToCode" id li elemente tıkla
+* "2" saniye bekle
+* "com.turkishairlines.mobile:id/frAirportSelection_etSearch" id li elemente "esb"  değerini yaz
+* "2" saniye bekle
+* "com.turkishairlines.mobile:id/itemAirport_tvBottom" id li elemente tıkla
+# Tarih bilgisini günün tarihinden 2 gün sonraya seç
+* "2" saniye bekle
+* "com.turkishairlines.mobile:id/frDashboard_rlDeparture" id li elemente tıkla
+* "2" saniye bekle
+* "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.ViewGroup/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ListView/android.widget.LinearLayout[1]/android.view.ViewGroup/android.view.ViewGroup[4]/android.widget.FrameLayout[6]/android.widget.TextView" xpath li elemente tıkla
+# Tamam butonuna bas
+* "2" saniye bekle
+* "com.turkishairlines.mobile:id/frDashboard_btnDone" id li elemente tıkla
+# Yetişkin bilgisini 2 yap
+* "2" saniye bekle
+* "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.ViewGroup/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ListView/android.widget.LinearLayout[1]/android.view.ViewGroup/android.view.ViewGroup[2]/android.widget.FrameLayout[7]/android.widget.TextView" xpath li elemente tıkla
+# Uçuş ara butonuna tıkla
+* "2" saniye bekle
+* "com.turkishairlines.mobile:id/frDashboard_btnSearch" id li elemente tıkla
+# Ekonomik uçuş seç
+* "2" saniye bekle
+* "com.turkishairlines.mobile:id/itemFlightSearchParent_tfdRoute" id li elemente tıkla
+* "2" saniye bekle
+* "com.turkishairlines.mobile:id/brandItem" id li elemente tıkla
+# Devam butonuna tıkla
+* "2" saniye bekle
+* "com.turkishairlines.mobile:id/frFlightSearch_btnContinue" id li elemente tıkla
+* "3" saniye bekle
